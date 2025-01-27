@@ -21,7 +21,7 @@
 
 <div align="center">
 claudemods Debian Installer v1.0 22-01-2025
-
+currently only the tui script is available
 
 
 
