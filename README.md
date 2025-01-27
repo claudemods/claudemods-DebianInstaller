@@ -48,14 +48,15 @@ v1.0 22-01-2025
 new install mechanism proven to work well
 new menu options after install chroot or reboot or exit
 removed addational script for hostname/username
-
+<div align="center">
 additional options for tty
 command makeiso in konsole will open my iso creator script
-command archauto will launch the installer
-
+command debianauto will launch the installer
+<div align="center">
 add this to your .bashrc
 alias makeiso='cd /opt/claudemods-iso-konsole-script/Supported-Distros/Debian && ./MainMenu.bin'
 alias autodebian='cd /opt/claudemods-DebianInstaller/v1.2 && sudo ./DebianInstaller.bin'
+<div align="center">
 sudo() {
     if [[ "$1" != "excluded-command" ]]; then
         eval 'printf "\e[38;2;255;215;0m"; command sudo "$@"; printf "\e[0m"'
