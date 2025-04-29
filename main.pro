@@ -3,10 +3,10 @@ TEMPLATE = app
 CONFIG += c++23
 
 # Target Application Name
-TARGET = ArchLinuxInstaller
+TARGET = DebianInstaller
 
 # Source Files
 SOURCES += main.cpp
 
 # Qt Modules
-QT += core widgets
+QT += core 
